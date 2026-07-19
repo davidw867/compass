@@ -1,176 +1,175 @@
-# Compass One Documentation
+# 📚 Compass One Documentation
 
-Welcome to the Compass One documentation.
+Welcome to the official Compass One documentation.
 
-This documentation provides the architecture, governance, standards, and technical guidance used to build and maintain the Compass One platform.
+This documentation is organized as a guided reference, taking you from the project's guiding principles through its architecture, implementation, and operational standards.
 
-If you are new to the project, start with the Constitution and then follow the documentation in the recommended order below.
+If you're new to Compass One, begin with **Part I – Foundations** and work your way down.
+
+---
+
+# 📖 Documentation Map
 
 ```
 Compass One Documentation
 
-├── Constitution
-├── Governance
-├── Roadmap
-│
-├── Architecture
-│   ├── Systrix
-│   ├── Agent System
-│   ├── Connector Framework
-│   └── Quality Framework
-│
-├── Development
-│
-└── Compliance
-
-```
-
----
-## Quick Start
-
-New to Compass One?
-
-Follow this reading order:
-
-1. Constitution
-2. Governance
-3. Roadmap
-4. Architecture
-5. Development Guides
-
-This order introduces the project's philosophy before its implementation.
----
-
-# Recommended Reading Order
-
-## 1. Foundations
-
-These documents define the purpose, principles, and governance of the project.
-
-- [Constitution](constitution/CONSTITUTION.md)
-- [Quality Framework](architecture/QUALITY_FRAMEWORK.md)
-- [Agent System](architecture/AGENT_SYSTEM.md)
-
----
-
-## 2. Architecture
-
-These documents describe how Compass One is designed.
-
-- [System Architecture](architecture/ARCHITECTURE.md)
-- [Systrix (System Intelligence Matrix)](architecture/SYSTEM_INTELLIGENCE_MATRIX.md)
-- [Agent System](architecture/AGENT_SYSTEM.md)
-- [AI Architecture](architecture/AI_ARCHITECTURE.md)
-- [Connector Framework](architecture/CONNECTOR_FRAMEWORK.md)
-- [Orchestrator](architecture/ORCHESTRATOR.md)
-- [Quality Framework](architecture/QUALITY_FRAMEWORK.md)
-- [Security Architecture](architecture/SECURITY_ARCHITECTURE.md)
-
----
-
-## 3. Development
-
-These documents help contributors build and extend Compass One.
-
-- API Documentation
-- Architecture Decision Records (ADRs)
-- Glossary
-- Tutorials
-- Examples
-
----
-
-## 4. Compliance
-
-These documents explain how Compass One maintains quality, security, and governance.
-
-- Security
-- Audits
-- Compliance Standards
-
----
-
-# Documentation Principles
-
-Compass One documentation follows these principles:
-
-- Documentation before implementation.
-- Truth over assumptions.
-- Simplicity over complexity.
-- Consistency across all documents.
-- Documentation reflects the current implementation.
-
----
-
-# Repository Standards
-
-Documentation is organized into logical sections.
-
-```
-docs/
-├── api/
-├── architecture/
-├── audits/
-├── compliance/
-├── constitution/
-├── decisions/
-├── glossary/
-├── governance/
-├── roadmap/
-└── tutorials/
+Part I   Foundations
+Part II  Architecture
+Part III Development
+Part IV  Operations
 ```
 
 ---
 
-## Documentation Status
+# Part I — Foundations
+
+These documents explain **why Compass One exists** and the principles that guide every decision.
+
+- 📜 [Constitution](constitution/CONSTITUTION.md)
+- 🏛️ [Governance](governance/GOVERNANCE.md)
+- 🗺️ [Roadmap](roadmap/ROADMAP.md)
+
+---
+
+# Part II — Architecture
+
+These documents explain **how Compass One is designed**.
+
+## Core Architecture
+
+- 🏗️ [System Architecture](architecture/ARCHITECTURE.md)
+- 🧠 [Systrix (System Intelligence Matrix)](architecture/SYSTEM_INTELLIGENCE_MATRIX.md)
+- 🤖 [Agent System](architecture/AGENT_SYSTEM.md)
+- 🧩 [AI Architecture](architecture/AI_ARCHITECTURE.md)
+
+## Frameworks
+
+- 🔌 [Connector Framework](architecture/CONNECTOR_FRAMEWORK.md)
+- 🎯 [Orchestrator](architecture/ORCHESTRATOR.md)
+- ✅ [Quality Framework](architecture/QUALITY_FRAMEWORK.md)
+- 🔒 [Security Architecture](architecture/SECURITY_ARCHITECTURE.md)
+
+---
+
+# Part III — Development
+
+These documents help developers extend Compass One.
+
+## Developer Guides
+
+- 📡 [API Documentation](api/)
+- 📘 [Tutorials](tutorials/)
+- 💡 [Examples](../examples/)
+
+## Reference
+
+- 📖 [Glossary](glossary/)
+- 📝 [Architecture Decision Records (ADRs)](decisions/)
+
+---
+
+# Part IV — Operations
+
+These documents define how Compass One maintains quality, governance, and security.
+
+## Quality
+
+- 🛡️ [Compliance Standards](compliance/)
+- 🔍 [Audit Reports](audits/)
+
+## Governance
+
+- 🔐 [Security](../SECURITY.md)
+- 🤝 [Contributing](../CONTRIBUTING.md)
+- 📋 [Code of Conduct](../CODE_OF_CONDUCT.md)
+- 📜 [License](../LICENSE)
+- 📈 [Changelog](../CHANGELOG.md)
+
+---
+
+# 🚀 Quick Start
+
+New contributors should read the documentation in this order:
+
+1. 📜 Constitution
+2. 🏛️ Governance
+3. 🗺️ Roadmap
+4. 🏗️ System Architecture
+5. 🧠 Systrix
+6. 🤖 Agent System
+7. 🎯 Quality Framework
+
+This reading order introduces the project's philosophy before its implementation.
+
+---
+
+# 📊 Documentation Status
 
 | Area | Status |
-|------|--------|
+|-------|:------:|
 | Constitution | ✅ Complete |
 | Governance | ✅ Complete |
 | Repository Standards | ✅ Complete |
+| Quality Framework | 🚧 In Progress |
 | Architecture | 🚧 In Progress |
-| Tutorials | 🚧 Planned |
-| API Documentation | 🚧 Planned |
+| Tutorials | 📅 Planned |
+| API Documentation | 📅 Planned |
+| Examples | 🚧 In Progress |
 
 ---
 
-# Contributing
+# ✍️ Documentation Principles
 
-When adding new documentation:
-
-- Place documents in the appropriate directory.
-- Keep language clear and concise.
-- Update related documentation when architecture changes.
-- Cross-reference relevant documents whenever appropriate.
-- Follow the Compass One Constitution.
-
----
-
-## Guiding Principle
-
-Every document in this repository should answer one or more of the following questions:
+Every document should answer one or more of the following questions:
 
 - Why does this exist?
 - What problem does it solve?
 - How does it work?
 - How should it be maintained?
 
-If a document cannot answer these questions, it should be revised or removed.
+Documentation should always be:
+
+- Accurate
+- Simple
+- Transparent
+- Consistent
+- Current
 
 ---
 
-# Need Help?
+# 🤝 Contributing Documentation
 
-If you're unsure where a document belongs, refer to:
+When adding or updating documentation:
 
-1. Constitution
-2. Governance
-3. Architecture
-4. Existing documentation
-
-When in doubt, prioritize clarity and consistency.
+- Place documents in the appropriate directory.
+- Keep language clear and concise.
+- Update related documents when architecture changes.
+- Cross-reference relevant documentation whenever appropriate.
+- Follow the Compass One Constitution.
+- Favor reusable frameworks over duplicated explanations.
 
 ---
 
-*"Build confidence. Not dependence."*
+# 💬 Need Help?
+
+If you're unsure where to begin, use this order:
+
+```
+Constitution
+      ↓
+Governance
+      ↓
+Roadmap
+      ↓
+Architecture
+      ↓
+Development
+      ↓
+Operations
+```
+
+If you're unsure where a document belongs, choose the location that will be most intuitive for a first-time contributor.
+
+---
+
+> **Build confidence. Not dependence.**
