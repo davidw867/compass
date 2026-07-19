@@ -25,9 +25,10 @@ def main():
         print("----")
         print("1. Git Status")
         print("2. Git Pull")
-        print("3. Git Push")
-        print("4. Quick Commit and Push")
-        print("5. Exit")
+        print("3. Git Commit")
+        print("4. Git Push")
+        print("5. Quick Commit and Push")
+        print("6. Exit")
 
         choice = input("\nSelect: ")
 
@@ -40,10 +41,17 @@ def main():
             pause()
 
         elif choice == "3":
-            os.system("git push")
+            message = input("Commit message: ")
+
+            os.system("git add .")
+            os.system(f'git commit -m "{message}"')
             pause()
 
         elif choice == "4":
+            os.system("git push")
+            pause()
+
+        elif choice == "5":
             message = input("Commit message: ")
 
             os.system("git add .")
@@ -51,7 +59,7 @@ def main():
             os.system("git push")
             pause()
 
-        elif choice == "5":
+        elif choice == "6":
             print("Goodbye!")
             break
 
