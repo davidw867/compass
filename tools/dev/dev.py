@@ -40,7 +40,7 @@ def main():
             pause()
 
         elif choice == "3":
-            oa.system("git push")
+            os.system("git push")
             pause()
 
         elif choice == "4":
