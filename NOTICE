@@ -1,0 +1,45 @@
+NOTICE
+
+Copyright © 2026 David Workman and Contributors
+
+This product includes software developed by the Compass One Project.
+
+Project
+
+Compass One is an open-source financial guidance platform designed to help individuals make informed financial decisions through transparent, responsible, and secure technology.
+
+The platform is powered by Systrix (System Intelligence Matrix), a modular intelligence engine designed around AI provider independence, extensibility, security, and long-term maintainability.
+
+Licensing
+
+This project is licensed under the Apache License, Version 2.0. See the accompanying "LICENSE" file for the complete license text.
+
+Trademarks
+
+"Compass One" and "Systrix (System Intelligence Matrix)" are project names associated with this software.
+
+Nothing in the Apache License grants permission to use the project's names, logos, branding, or trademarks in a manner that suggests endorsement or affiliation without permission from the project maintainers.
+
+Third-Party Software
+
+This project may include or depend upon third-party software components licensed under their respective licenses.
+
+Where required, appropriate attribution and license notices will be maintained.
+
+Mission
+
+Compass One is committed to:
+
+- Transparency
+- Security
+- Responsible AI
+- Plain-language communication
+- User-first financial guidance
+- Long-term maintainability
+- Open collaboration
+
+Attribution
+
+Created and maintained by David Workman and Contributors.
+
+For project information, documentation, and contribution guidelines, please refer to the files in the root of this repository.
