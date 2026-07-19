@@ -1,0 +1,82 @@
+{
+  "version": "1.0",
+  "requiredRootDirectories": [
+    ".github",
+    "agents",
+    "assets",
+    "connectors",
+    "docs",
+    "examples",
+    "providers",
+    "scripts",
+    "shared",
+    "src",
+    "tests",
+    "tools"
+  ],
+  "requiredRootFiles": [
+    "README.md",
+    "CHANGELOG.md",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "GOVERNANCE.md",
+    "LICENSE",
+    "NOTICE",
+    "SECURITY.md"
+  ],
+  "requiredAgentDirectories": [
+    "coaching",
+    "coding",
+    "compliance",
+    "council",
+    "finance",
+    "reporting",
+    "research",
+    "template"
+  ],
+  "requiredConnectorDirectories": [
+    "banking",
+    "brokerage",
+    "crypto",
+    "dropbox",
+    "github",
+    "google-drive",
+    "onedrive",
+    "plaid",
+    "template"
+  ],
+  "requiredProviderDirectories": [
+    "anthropic",
+    "grok",
+    "llama",
+    "local",
+    "mistral",
+    "ollama",
+    "openai",
+    "qwen",
+    "template"
+  ],
+  "requiredProjects": [
+    "Systrix.AI",
+    "Systrix.Analytics",
+    "Systrix.Api",
+    "Systrix.Application",
+    "Systrix.Connectors",
+    "Systrix.Core",
+    "Systrix.Domain",
+    "Systrix.Guidance",
+    "Systrix.Infrastructure",
+    "Systrix.Mobile",
+    "Systrix.Orchestrator",
+    "Systrix.Reporting",
+    "Systrix.Security",
+    "Systrix.Web"
+  ],
+  "requiredTestDirectories": [
+    "acceptance",
+    "integration",
+    "performance",
+    "security",
+    "unit"
+  ]
+}
