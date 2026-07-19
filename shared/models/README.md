@@ -1,0 +1,3 @@
+# Models
+
+Shared models placeholder.

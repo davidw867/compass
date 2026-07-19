@@ -1,1 +1,3 @@
-#can you actually read this!
+# Compass
+
+Top-level README placeholder. Update later.

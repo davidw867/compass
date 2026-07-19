@@ -1,0 +1,3 @@
+# Contracts
+
+Shared contracts placeholder.
